@@ -1,0 +1,16 @@
+.website {
+    grid-area: website;
+    height: 152px;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+} 
+
+@media all and (max-width:620px) {
+    .website {
+        margin-left: auto;
+        margin-right: auto;
+        width: 288px;
+        height: 46px;
+    }
+}

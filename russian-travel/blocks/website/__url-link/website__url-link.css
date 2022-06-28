@@ -1,0 +1,14 @@
+.website__url-link {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.5;
+    text-decoration: underline;
+    color: #FFFFFF;
+    margin-top:12px;
+}
+
+.website__url-link:hover {
+    opacity: 0.8;
+}
