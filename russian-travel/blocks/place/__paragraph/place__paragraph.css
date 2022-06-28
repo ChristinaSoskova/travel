@@ -16,12 +16,12 @@
 
 
 @media all and (max-width:620px) {
-    .place__paragraph{
+    .place__paragraph {
         width: 288px;
-       margin-left: auto;
-       margin-right: auto;
+        margin-left: auto;
+        margin-right: auto;
     }
- }
+}
 
 
 .place__paragraph:nth-child(2) {
