@@ -1,0 +1,29 @@
+.place__paragraph {
+    grid-area: paragraph;
+    margin: 0;
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 26px;
+}
+
+@media all and (max-width:1023px) {
+    .place__paragraph {
+        font-size: 16px;
+    }
+}
+
+
+@media all and (max-width:620px) {
+    .place__paragraph {
+        width: 288px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+
+.place__paragraph:nth-child(2) {
+    margin-bottom: 0;
+}
