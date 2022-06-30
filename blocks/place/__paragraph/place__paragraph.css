@@ -1,7 +1,7 @@
 .place__paragraph {
     grid-area: paragraph;
     margin: 0;
-    font-family: 'Inter';
+    font-family: 'Inter', 'Helvetica Neue';
     font-weight: 400;
     font-size: 18px;
     line-height: 1.6;
@@ -17,7 +17,7 @@
 
 @media all and (max-width:620px) {
     .place__paragraph {
-        width: 288px;
+        width: 95%;
         margin-left: auto;
         margin-right: auto;
     }

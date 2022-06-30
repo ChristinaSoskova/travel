@@ -10,7 +10,7 @@
 
 @media all and (min-width:426px) and (max-width:768px) {
     .lead__caption {
-        margin-left: calc(1vw + 13px);
+        margin-left: calc(1vw + 16px);
     }
 }
 

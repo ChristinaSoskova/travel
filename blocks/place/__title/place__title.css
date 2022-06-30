@@ -1,14 +1,14 @@
 .place__title {
     grid-area: title;
     margin: 0;
-    height: 152px;
-    font-family: 'Inter';
+    font-family: 'Inter', 'Helvetica Neue';
     font-weight: 900;
     font-size: 72px;
     line-height: 1.2;
     display: flex;
     flex-direction: column;
     justify-content: end;
+    height: auto;
 }
 
 
@@ -20,10 +20,15 @@
 
 @media all and (max-width:620px) {
     .place__title {
-        height: 35px;
+        margin-left: 5%;
+        min-width: 288px;
+    }
+}
+
+@media all and (max-width:360px) {
+    .place__title {
         font-size: 32px;
         margin-left: auto;
         margin-right: auto;
-        width: 288px;
     }
 }

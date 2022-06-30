@@ -10,9 +10,11 @@
     left: 0;
     right: 0;
     bottom: 0;
+    transition: 1s ease-in;
 }
 
 .cover__item:hover {
     background: #2A2C2F;
-    opacity: 0.8;
+    opacity: .8;
+    transition: .8s ease-in;
 }
