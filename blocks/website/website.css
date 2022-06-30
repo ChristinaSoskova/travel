@@ -1,15 +1,15 @@
 .website {
     grid-area: website;
+    justify-content: end;
     display: flex;
     flex-direction: column;
-    justify-content: end;
 }
 
 @media all and (max-width:620px) {
     .website {
         margin-left: 5%;
         width: 288px;
-        height: 46px;
+        max-height: 46px;
     }
 }
 
@@ -17,6 +17,5 @@
     .place__title {
         margin-left: auto;
         margin-right: auto;
-       
     }
 }
