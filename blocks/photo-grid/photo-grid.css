@@ -20,6 +20,6 @@
 @media all and (max-width:425px) {
     .photo-grid {
         margin-bottom: calc(92px - 8.8vw);
-        width: 288px;
+        width: 90%;
     }
 }
