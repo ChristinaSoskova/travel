@@ -8,6 +8,12 @@
 }
 
 
+@media screen and (min-width:1281px) {
+    .intro {
+        margin-left: calc(147px +1%);
+    }
+}
+
 @media screen and (min-width:1024px) and (max-width: 1279px) {
     .intro {
         width: 690px;

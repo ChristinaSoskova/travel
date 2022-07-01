@@ -1,14 +1,13 @@
 .header__lang-links {
     margin-right: 0;
     padding-top: 24px;
-    display: flex;
-    justify-content: space-between;
-    width: 78px;
+    display: grid;
+    grid-template-columns: repeat(2, 30px);
+    column-gap: 18px;
 }
 
 @media all and (max-width: 425px) {
     .header__lang-links {
-        width: 62px;
+        grid-template-columns: repeat(2, 22px);
     }
-    
 }

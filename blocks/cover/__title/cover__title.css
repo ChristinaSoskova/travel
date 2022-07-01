@@ -10,10 +10,7 @@
 
 @media all and (max-width:620px) {
     .cover__title {
-        font-family: 'Inter', 'Helvetica Neue';
-        font-weight: 900;
         font-size: 32px;
         max-width: 288px;
-        margin-top: 33px;
     }
 }

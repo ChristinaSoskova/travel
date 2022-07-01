@@ -10,22 +10,23 @@
     width: 100%;
 }
 
-@media screen and (min-width: 1180px) {
+@media screen and (min-width: 1045px) {
     .place {
-        grid-template-columns: repeat(2, 484px);
+        grid-template-columns: 460px 484px;
     }
 }
 
-@media screen and (max-width:768px) {
+@media screen and (width:768px) {
     .place {
         margin-bottom: 73px;
+        column-gap: 28px;
+        grid-template-columns: 330px 352px;
     }
 
     .place:last-child {
         margin-bottom: 0;
     }
 }
-
 
 
 @media all and (max-width: 620px) {
@@ -38,10 +39,6 @@
             "paragraph";
         row-gap: 32px;
         margin-bottom: 50px;
-    }
-    
-    .place:last-child {
-        margin-bottom: 0;
     }
 }
 
