@@ -8,9 +8,9 @@
 }
 
 
-@media screen and (min-width:1281px) {
+@media screen and (min-width: 1281px){
     .intro {
-        margin-left: calc(147px +1%);
+        margin-left: 9%;
     }
 }
 
